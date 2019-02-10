@@ -5,6 +5,9 @@
 
 3.python main.py 
 
+# How to add library
+When adding a library please describe the necessary item in requirements.txt and rebuild
+
 # build and run
 docker-compose up -d
 
@@ -13,10 +16,6 @@ docker exec -it python /bin/bash
 
 # remove
 docker-compose down --rmi all
-
-# How to add library
-When adding a library please describe the necessary item in requirements.txt and rebuild
-
 
 # start
 docker-compose start
