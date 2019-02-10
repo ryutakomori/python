@@ -8,11 +8,15 @@
 # build and run
 docker-compose up -d
 
+# container connect
+docker exec -it python /bin/bash
+
 # remove
 docker-compose down --rmi all
 
-# container connect
-docker exec -it python /bin/bash
+# How to add library
+When adding a library please describe the necessary item in requirements.txt and rebuild
+
 
 # start
 docker-compose start
@@ -22,6 +26,3 @@ docker-compose restart
 
 # stop
 docker-compose stop
-
-# How to add library
-When adding a library please describe the necessary item in requirements.txt and rebuild
